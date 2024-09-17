@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?><deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration file="" location="" name="mltest.prj.template" target="target.ezdeploy.mps.archive" target-name="Production Server Compiler">
+    <param.appname>DeployedRegressionModel</param.appname>
+    <param.icon/>
+    <param.icons/>
+    <param.version>1.0</param.version>
+    <param.user.defined.mcr.options/>
+    <param.target.type>subtarget.mads</param.target.type>
+    <param.support.packages/>
+    <param.required.mcr.products/>
+    <param.discovery.file/>
+    <param.classorg/>
+    <param.function.data/>
+    <param.user.only.registration>false</param.user.only.registration>
+    <param.mps.server.dir>server</param.mps.server.dir>
+    <param.mps.client.dir>client</param.mps.client.dir>
+    <param.time.out>60</param.time.out>
+    <param.max.size>750</param.max.size>
+    <param.certificate.file/>
+    <param.mads.server.configuration/>
+    <unset>
+      <param.icon/>
+      <param.icons/>
+      <param.version/>
+      <param.intermediate/>
+      <param.files.only/>
+      <param.output/>
+      <param.logdir/>
+      <param.enable.clean.build/>
+      <param.user.defined.mcr.options/>
+      <param.server.ctf/>
+      <param.server.readme/>
+      <param.target.type/>
+      <param.support.packages/>
+      <param.required.mcr.products/>
+      <param.discovery.file/>
+      <param.classorg/>
+      <param.function.data/>
+      <param.user.only.registration/>
+      <param.mps.server.dir/>
+      <param.mps.client.dir/>
+      <param.time.out/>
+      <param.max.size/>
+      <param.certificate.file/>
+      <param.mads.server.configuration/>
+    </unset>
+    <fileset.exports>
+        <file>/Users/wangqianlong/Documents/伏羲/MATLAB/油藏设计/RegressionLearnerDeployedModel_resources/predictFunction.m</file>
+    <file>/Users/wangqianlong/Documents/伏羲/MATLAB/油藏设计/RegressionLearnerDeployedModel_resources/modelInformation.m</file>
+    </fileset.exports>
+    <fileset.classes>
+      <entity.package name="">
+        <entity.class name="Class1"/>
+      </entity.package>
+    </fileset.classes>
+    <fileset.resources>
+        <file>/Users/wangqianlong/Documents/伏羲/MATLAB/油藏设计/RegressionLearnerDeployedModel_resources/TrainedRegressionModel.mat</file>
+    <file>/Users/wangqianlong/Documents/伏羲/MATLAB/油藏设计/RegressionLearnerDeployedModel_resources/processInputData.m</file>
+    </fileset.resources>
+    <fileset.depfun/>
+    <fileset.package/>
+    <fileset.package.server/>
+    <fileset.package.client/>
+    <build-deliverables/>
+    <workflow/>
+  </configuration>
+</deployment-project>
